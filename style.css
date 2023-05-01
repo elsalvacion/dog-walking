@@ -137,6 +137,10 @@ a:active {
   text-align: center;
   text-decoration: underline;
 }
+.about-right p {
+  font-size: 17px;
+  margin: 10px;
+}
 
 /* services */
 
