@@ -273,16 +273,20 @@ h1 {
 @media (max-width: 680px) {
   .nav-container {
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
   .nav-links a {
     font-size: small;
   }
   .showcase-container {
     height: 65vh;
+    width: 100%;
   }
   .showcase-content {
     margin-top: 50px;
-    padding: 20px;
+    padding: 15px;
+    width: 90%;
   }
   .showcase-content h2 {
     font-size: x-large;
@@ -328,5 +332,16 @@ h1 {
 
   .contact-details-container h1 {
     font-size: 26px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-container {
+    padding: 5px;
+  }
+
+  .nav-container a {
+    padding: 5px;
+    font-weight: 400;
   }
 }
